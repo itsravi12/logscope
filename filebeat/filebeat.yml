@@ -1,0 +1,22 @@
+filebeat.inputs:
+  - type: filestream
+    id: logscope-app-logs
+    enabled: true
+    paths:
+      - /usr/share/filebeat/logs/*.log
+    parsers:
+      - ndjson:
+          target: ""
+          overwrite_keys: true
+          add_error_key: true
+
+processors:
+  - add_host_metadata:
+      when.not.has_fields: ['host']
+  - add_cloud_metadata: ~
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
+logging.level: info
+logging.to_files: false
