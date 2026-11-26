@@ -21,6 +21,28 @@ class LogStorage:
         ]
         # Initial sync from log file
         self.sync_from_file()
+        if not self.logs:
+            self._load_fallback_showcase()
+
+    def _load_fallback_showcase(self):
+        """Loads showcase logs if active app.log is missing or empty (e.g. cloud deployment)."""
+        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        showcase_path = os.path.join(root_dir, "logs", "test_showcase_logs.json")
+        if not os.path.exists(showcase_path):
+            return
+        try:
+            with open(showcase_path, "r", encoding="utf-8") as f:
+                entries = json.load(f)
+            for entry in entries:
+                if "id" not in entry:
+                    entry["id"] = entry.get("request_id") or f"log-{len(self.logs)+1}"
+                if "level" in entry:
+                    entry["level"] = entry["level"].upper()
+                self.logs.append(entry)
+                alert_engine.process_log(entry)
+            print(f"[LogStorage] Loaded {len(self.logs)} showcase logs from {showcase_path}")
+        except Exception as e:
+            print(f"[LogStorage] Error loading showcase logs: {e}")
 
     def sync_from_file(self):
         """Reads new log entries from the log file and processes them."""

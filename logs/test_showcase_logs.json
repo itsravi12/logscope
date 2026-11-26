@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "log-demo-278",
+    "timestamp": "2026-11-26T05:02:02.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Unique constraint violation: duplicate key value violates unique index users_email_key",
+    "request_id": "req-14dbce2d"
+  },
+  {
+    "id": "log-demo-281",
+    "timestamp": "2026-11-26T05:03:52.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-be34bd40"
+  },
+  {
+    "id": "log-demo-199",
+    "timestamp": "2026-11-26T05:04:12.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Incoming request from 192.168.1.155 matched rate limit tier: Standard",
+    "request_id": "req-abd29b3b"
+  },
+  {
+    "id": "log-demo-180",
+    "timestamp": "2026-11-26T05:04:53.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-f6a296ee"
+  },
+  {
+    "id": "log-demo-17",
+    "timestamp": "2026-11-26T05:05:00.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "TLS 1.3 handshake completed with cipher TLS_AES_256_GCM_SHA384",
+    "request_id": "req-93e61635"
+  },
+  {
+    "id": "log-demo-282",
+    "timestamp": "2026-11-26T05:05:10.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-f2dffad5"
+  },
+  {
+    "id": "log-demo-304",
+    "timestamp": "2026-11-26T05:05:38.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Refund ref_D9D88C32AC successfully issued to original payment source",
+    "request_id": "req-19efb9c9"
+  },
+  {
+    "id": "log-demo-65",
+    "timestamp": "2026-11-26T05:06:06.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Connection refused to read replica postgres-replica-02:5432",
+    "request_id": "req-c9452b93"
+  },
+  {
+    "id": "log-demo-309",
+    "timestamp": "2026-11-26T05:06:32.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-81a04161"
+  },
+  {
+    "id": "log-demo-134",
+    "timestamp": "2026-11-26T05:06:58.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Multi-factor authentication challenge completed for session_1378e5dc",
+    "request_id": "req-13d9e970"
+  },
+  {
+    "id": "log-demo-75",
+    "timestamp": "2026-11-26T05:07:45.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-553edab0"
+  },
+  {
+    "id": "log-demo-45",
+    "timestamp": "2026-11-26T05:08:02.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-d5b4fd84"
+  },
+  {
+    "id": "log-demo-162",
+    "timestamp": "2026-11-26T05:08:07.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-5313f8f7"
+  },
+  {
+    "id": "log-demo-318",
+    "timestamp": "2026-11-26T05:08:33.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Upstream connection failed: 504 Gateway Timeout on /api/v1/analytics",
+    "request_id": "req-712a0485"
+  },
+  {
+    "id": "log-demo-165",
+    "timestamp": "2026-11-26T05:11:10.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-3d35f434"
+  },
+  {
+    "id": "log-demo-319",
+    "timestamp": "2026-11-26T05:13:19.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-6d33cbc2"
+  },
+  {
+    "id": "log-demo-190",
+    "timestamp": "2026-11-26T05:14:48.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Client closed connection prematurely while reading response body",
+    "request_id": "req-5e6f8cde"
+  },
+  {
+    "id": "log-demo-63",
+    "timestamp": "2026-11-26T05:16:14.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-64e2fd6d"
+  },
+  {
+    "id": "log-demo-122",
+    "timestamp": "2026-11-26T05:19:02.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 693806 bytes)",
+    "request_id": "req-e7716271"
+  },
+  {
+    "id": "log-demo-246",
+    "timestamp": "2026-11-26T05:21:03.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Rate limit approaching for IP 192.168.1.155: 45/50 requests in 60s",
+    "request_id": "req-6bfd4d0b"
+  },
+  {
+    "id": "log-demo-193",
+    "timestamp": "2026-11-26T05:21:38.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Query SELECT * FROM orders executed in 11ms, returned 12 rows",
+    "request_id": "req-b92e5ea0"
+  },
+  {
+    "id": "log-demo-13",
+    "timestamp": "2026-11-26T05:21:44.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 93ms",
+    "request_id": "req-7949e555"
+  },
+  {
+    "id": "log-demo-138",
+    "timestamp": "2026-11-26T05:21:46.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Gzip compression saved 68% bandwidth on HTML payload",
+    "request_id": "req-5a4ca66b"
+  },
+  {
+    "id": "log-demo-198",
+    "timestamp": "2026-11-26T05:23:51.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 69ms",
+    "request_id": "req-d265538b"
+  },
+  {
+    "id": "log-demo-209",
+    "timestamp": "2026-11-26T05:25:29.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "OAuth2 token validated for client_id=client_990",
+    "request_id": "req-8a0cd248"
+  },
+  {
+    "id": "log-demo-57",
+    "timestamp": "2026-11-26T05:26:35.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Unique constraint violation: duplicate key value violates unique index users_email_key",
+    "request_id": "req-f106d56a"
+  },
+  {
+    "id": "log-demo-32",
+    "timestamp": "2026-11-26T05:27:27.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "User session established successfully for user_id=1915",
+    "request_id": "req-1faca80e"
+  },
+  {
+    "id": "log-demo-93",
+    "timestamp": "2026-11-26T05:28:01.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Calling bank partner settlement gateway api.bankpartner.com",
+    "request_id": "req-b91ecee2"
+  },
+  {
+    "id": "log-demo-320",
+    "timestamp": "2026-11-26T05:28:53.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-9a77f6c6"
+  },
+  {
+    "id": "log-demo-378",
+    "timestamp": "2026-11-26T05:29:58.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-b0bca81e"
+  },
+  {
+    "id": "log-demo-142",
+    "timestamp": "2026-11-26T05:31:55.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Expired authentication token presented by client client_465",
+    "request_id": "req-eb50e779"
+  },
+  {
+    "id": "log-demo-271",
+    "timestamp": "2026-11-26T05:33:47.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-92fc2faf"
+  },
+  {
+    "id": "log-demo-298",
+    "timestamp": "2026-11-26T05:34:14.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 482295 bytes)",
+    "request_id": "req-f7a4622e"
+  },
+  {
+    "id": "log-demo-366",
+    "timestamp": "2026-11-26T05:35:22.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-498f6531"
+  },
+  {
+    "id": "log-demo-202",
+    "timestamp": "2026-11-26T05:37:49.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Constructing idempotency key for payment order_6CD56E7081",
+    "request_id": "req-d4971cc4"
+  },
+  {
+    "id": "log-demo-262",
+    "timestamp": "2026-11-26T05:38:41.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Query SELECT * FROM orders executed in 96ms, returned 12 rows",
+    "request_id": "req-317febcb"
+  },
+  {
+    "id": "log-demo-295",
+    "timestamp": "2026-11-26T05:39:15.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "OAuth2 token validated for client_id=client_371",
+    "request_id": "req-466ed800"
+  },
+  {
+    "id": "log-demo-91",
+    "timestamp": "2026-11-26T05:40:32.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-55286238"
+  },
+  {
+    "id": "log-demo-348",
+    "timestamp": "2026-11-26T05:41:25.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-8d2dfcb4"
+  },
+  {
+    "id": "log-demo-81",
+    "timestamp": "2026-11-26T05:42:08.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-edcf2962"
+  },
+  {
+    "id": "log-demo-382",
+    "timestamp": "2026-11-26T05:42:30.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Corrupt data page detected in tablespace pg_default block 49102",
+    "request_id": "req-dfe50818"
+  },
+  {
+    "id": "log-demo-388",
+    "timestamp": "2026-11-26T05:42:31.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-d7f80ee6"
+  },
+  {
+    "id": "log-demo-292",
+    "timestamp": "2026-11-26T05:43:08.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "User session established successfully for user_id=8544",
+    "request_id": "req-2efdaca8"
+  },
+  {
+    "id": "log-demo-19",
+    "timestamp": "2026-11-26T05:43:18.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-9b7a2bb1"
+  },
+  {
+    "id": "log-demo-156",
+    "timestamp": "2026-11-26T05:45:14.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Payment method card_ending_8166 verified for customer_2368",
+    "request_id": "req-28509f1c"
+  },
+  {
+    "id": "log-demo-334",
+    "timestamp": "2026-11-26T05:48:25.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Payment transaction tx_816D29A792 completed successfully: amount=$38.89",
+    "request_id": "req-13d158b8"
+  },
+  {
+    "id": "log-demo-248",
+    "timestamp": "2026-11-26T05:49:12.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-2eadfeb3"
+  },
+  {
+    "id": "log-demo-154",
+    "timestamp": "2026-11-26T05:49:50.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-81b54ac2"
+  },
+  {
+    "id": "log-demo-163",
+    "timestamp": "2026-11-26T05:52:02.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-730bb89c"
+  },
+  {
+    "id": "log-demo-89",
+    "timestamp": "2026-11-26T05:52:31.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-2bcbda06"
+  },
+  {
+    "id": "log-demo-315",
+    "timestamp": "2026-11-26T05:57:14.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 24ms",
+    "request_id": "req-3a1cc6b0"
+  },
+  {
+    "id": "log-demo-327",
+    "timestamp": "2026-11-26T05:58:44.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-dea1590c"
+  },
+  {
+    "id": "log-demo-244",
+    "timestamp": "2026-11-26T05:58:48.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Refreshing expired JWT refresh token token_ref_bcd4afac",
+    "request_id": "req-5b32f65c"
+  },
+  {
+    "id": "log-demo-27",
+    "timestamp": "2026-11-26T05:59:28.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "SSL private key file /etc/ssl/certs/server.key unreadable or tampered",
+    "request_id": "req-516ebce8"
+  },
+  {
+    "id": "log-demo-103",
+    "timestamp": "2026-11-26T05:59:48.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Failed login attempt detected from IP 172.16.20.10 for user_id=3137",
+    "request_id": "req-6d31cb57"
+  },
+  {
+    "id": "log-demo-365",
+    "timestamp": "2026-11-26T06:03:46.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Payment method card_ending_7956 verified for customer_7639",
+    "request_id": "req-6cff10f3"
+  },
+  {
+    "id": "log-demo-285",
+    "timestamp": "2026-11-26T06:06:30.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-47de4fc9"
+  },
+  {
+    "id": "log-demo-4",
+    "timestamp": "2026-11-26T06:07:11.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 104ms",
+    "request_id": "req-226f482b"
+  },
+  {
+    "id": "log-demo-229",
+    "timestamp": "2026-11-26T06:08:14.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-8a60c923"
+  },
+  {
+    "id": "log-demo-191",
+    "timestamp": "2026-11-26T06:10:57.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-c0740157"
+  },
+  {
+    "id": "log-demo-64",
+    "timestamp": "2026-11-26T06:11:30.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-4a0f3a38"
+  },
+  {
+    "id": "log-demo-253",
+    "timestamp": "2026-11-26T06:12:00.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-1a9a3bd4"
+  },
+  {
+    "id": "log-demo-279",
+    "timestamp": "2026-11-26T06:12:08.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 598263 bytes)",
+    "request_id": "req-6a899f02"
+  },
+  {
+    "id": "log-demo-105",
+    "timestamp": "2026-11-26T06:15:06.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-50e59c76"
+  },
+  {
+    "id": "log-demo-353",
+    "timestamp": "2026-11-26T06:15:11.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Upstream service latency spike: Payment Service took 2187ms (>1000ms threshold)",
+    "request_id": "req-2f46a5af"
+  },
+  {
+    "id": "log-demo-233",
+    "timestamp": "2026-11-26T06:16:15.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Failed to open file /var/www/html/assets/app.chunk.js: Permission denied",
+    "request_id": "req-36300d43"
+  },
+  {
+    "id": "log-demo-86",
+    "timestamp": "2026-11-26T06:16:19.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-3a88e013"
+  },
+  {
+    "id": "log-demo-56",
+    "timestamp": "2026-11-26T06:16:36.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Calling bank partner settlement gateway api.bankpartner.com",
+    "request_id": "req-d8411518"
+  },
+  {
+    "id": "log-demo-88",
+    "timestamp": "2026-11-26T06:18:04.360620+00:00",
+    "level": "CRITICAL",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "DDoS mitigation engaged: incoming request flood exceeding 50,000 req/sec",
+    "request_id": "req-4f1fe714"
+  },
+  {
+    "id": "log-demo-254",
+    "timestamp": "2026-11-26T06:18:12.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "502 Bad Gateway: connect() to unix:/var/run/flask.sock failed (Connection refused)",
+    "request_id": "req-ce2b0e6b"
+  },
+  {
+    "id": "log-demo-294",
+    "timestamp": "2026-11-26T06:18:34.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_D519FF6580",
+    "request_id": "req-c7701c5a"
+  },
+  {
+    "id": "log-demo-346",
+    "timestamp": "2026-11-26T06:18:53.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_7361D62C9E",
+    "request_id": "req-12808963"
+  },
+  {
+    "id": "log-demo-217",
+    "timestamp": "2026-11-26T06:20:09.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Connection pool usage at 85% capacity (42/50 connections)",
+    "request_id": "req-e6fe589e"
+  },
+  {
+    "id": "log-demo-225",
+    "timestamp": "2026-11-26T06:20:49.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Failed to open file /var/www/html/assets/app.chunk.js: Permission denied",
+    "request_id": "req-2d80f1cc"
+  },
+  {
+    "id": "log-demo-107",
+    "timestamp": "2026-11-26T06:23:15.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 4ms",
+    "request_id": "req-3383c19f"
+  },
+  {
+    "id": "log-demo-38",
+    "timestamp": "2026-11-26T06:24:46.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-cf963990"
+  },
+  {
+    "id": "log-demo-157",
+    "timestamp": "2026-11-26T06:25:15.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Rate limit approaching for IP 10.0.14.88: 45/50 requests in 60s",
+    "request_id": "req-72f618a3"
+  },
+  {
+    "id": "log-demo-398",
+    "timestamp": "2026-11-26T06:25:25.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-ef016ff8"
+  },
+  {
+    "id": "log-demo-136",
+    "timestamp": "2026-11-26T06:25:33.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 248427 bytes)",
+    "request_id": "req-d4ba5620"
+  },
+  {
+    "id": "log-demo-85",
+    "timestamp": "2026-11-26T06:26:39.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Header X-Correlation-ID injected: req-f24ada3c",
+    "request_id": "req-7dcb21cb"
+  },
+  {
+    "id": "log-demo-104",
+    "timestamp": "2026-11-26T06:27:26.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Currency conversion rate stale for EUR/USD, using cached fallback",
+    "request_id": "req-0887bb16"
+  },
+  {
+    "id": "log-demo-167",
+    "timestamp": "2026-11-26T06:29:38.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Header X-Correlation-ID injected: req-0f21e61c",
+    "request_id": "req-409b8b5d"
+  },
+  {
+    "id": "log-demo-6",
+    "timestamp": "2026-11-26T06:30:33.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Header X-Correlation-ID injected: req-6bd56ee9",
+    "request_id": "req-73834f15"
+  },
+  {
+    "id": "log-demo-130",
+    "timestamp": "2026-11-26T06:30:51.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-863bb002"
+  },
+  {
+    "id": "log-demo-71",
+    "timestamp": "2026-11-26T06:31:37.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Calling bank partner settlement gateway api.bankpartner.com",
+    "request_id": "req-9a42b093"
+  },
+  {
+    "id": "log-demo-381",
+    "timestamp": "2026-11-26T06:32:57.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Client closed connection prematurely while reading response body",
+    "request_id": "req-aa80c19a"
+  },
+  {
+    "id": "log-demo-371",
+    "timestamp": "2026-11-26T06:33:39.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-c68b5f5a"
+  },
+  {
+    "id": "log-demo-176",
+    "timestamp": "2026-11-26T06:38:28.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Card issuer declined payment tx_4691B21A22: Insufficient funds",
+    "request_id": "req-17bc3486"
+  },
+  {
+    "id": "log-demo-43",
+    "timestamp": "2026-11-26T06:38:40.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-e34c6fa3"
+  },
+  {
+    "id": "log-demo-173",
+    "timestamp": "2026-11-26T06:39:04.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "OAuth2 token validated for client_id=client_761",
+    "request_id": "req-acb5eb64"
+  },
+  {
+    "id": "log-demo-237",
+    "timestamp": "2026-11-26T06:39:06.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Refund ref_CDCAEAD8B8 successfully issued to original payment source",
+    "request_id": "req-7ec53ff0"
+  },
+  {
+    "id": "log-demo-391",
+    "timestamp": "2026-11-26T06:39:11.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-e3a9dfa1"
+  },
+  {
+    "id": "log-demo-62",
+    "timestamp": "2026-11-26T06:39:13.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-34ea49d4"
+  },
+  {
+    "id": "log-demo-67",
+    "timestamp": "2026-11-26T06:40:57.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Payment method card_ending_5587 verified for customer_8791",
+    "request_id": "req-8ce0b4d1"
+  },
+  {
+    "id": "log-demo-20",
+    "timestamp": "2026-11-26T06:42:38.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Query SELECT * FROM orders executed in 95ms, returned 12 rows",
+    "request_id": "req-b013bfda"
+  },
+  {
+    "id": "log-demo-2",
+    "timestamp": "2026-11-26T06:43:27.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-1e53d8a9"
+  },
+  {
+    "id": "log-demo-10",
+    "timestamp": "2026-11-26T06:43:33.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Payment transaction tx_7F9C99FFF9 completed successfully: amount=$41.71",
+    "request_id": "req-96f07f66"
+  },
+  {
+    "id": "log-demo-129",
+    "timestamp": "2026-11-26T06:43:48.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 608787 bytes)",
+    "request_id": "req-f1ef77d7"
+  },
+  {
+    "id": "log-demo-221",
+    "timestamp": "2026-11-26T06:44:27.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Payment transaction tx_FFF3B8A60E completed successfully: amount=$185.32",
+    "request_id": "req-f6268442"
+  },
+  {
+    "id": "log-demo-394",
+    "timestamp": "2026-11-26T06:44:34.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-e80e9731"
+  },
+  {
+    "id": "log-demo-16",
+    "timestamp": "2026-11-26T06:44:45.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-752f2519"
+  },
+  {
+    "id": "log-demo-249",
+    "timestamp": "2026-11-26T06:45:02.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Client closed connection prematurely while reading response body",
+    "request_id": "req-8a13a08c"
+  },
+  {
+    "id": "log-demo-351",
+    "timestamp": "2026-11-26T06:45:42.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 312796 bytes)",
+    "request_id": "req-13b48b5f"
+  },
+  {
+    "id": "log-demo-140",
+    "timestamp": "2026-11-26T06:46:31.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-48752ce4"
+  },
+  {
+    "id": "log-demo-135",
+    "timestamp": "2026-11-26T06:46:38.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Upstream service latency spike: Payment Service took 330ms (>1000ms threshold)",
+    "request_id": "req-41528323"
+  },
+  {
+    "id": "log-demo-367",
+    "timestamp": "2026-11-26T06:46:38.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_1DB84037E3",
+    "request_id": "req-45763ec7"
+  },
+  {
+    "id": "log-demo-147",
+    "timestamp": "2026-11-26T06:46:39.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-00fdce1b"
+  },
+  {
+    "id": "log-demo-275",
+    "timestamp": "2026-11-26T06:46:41.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-fdf9822a"
+  },
+  {
+    "id": "log-demo-97",
+    "timestamp": "2026-11-26T06:46:43.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "User session established successfully for user_id=8718",
+    "request_id": "req-3465170a"
+  },
+  {
+    "id": "log-demo-241",
+    "timestamp": "2026-11-26T06:46:51.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "OAuth2 token validated for client_id=client_467",
+    "request_id": "req-edc5c26a"
+  },
+  {
+    "id": "log-demo-127",
+    "timestamp": "2026-11-26T06:46:54.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Refund ref_9A75D3F063 successfully issued to original payment source",
+    "request_id": "req-10c7a25c"
+  },
+  {
+    "id": "log-demo-87",
+    "timestamp": "2026-11-26T06:47:00.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "OAuth2 token validated for client_id=client_982",
+    "request_id": "req-4339225b"
+  },
+  {
+    "id": "log-demo-76",
+    "timestamp": "2026-11-26T06:47:03.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-7e8cc9bb"
+  },
+  {
+    "id": "log-demo-90",
+    "timestamp": "2026-11-26T06:47:03.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-00f7877c"
+  },
+  {
+    "id": "log-demo-46",
+    "timestamp": "2026-11-26T06:47:09.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "OAuth2 token validated for client_id=client_548",
+    "request_id": "req-28caaffb"
+  },
+  {
+    "id": "log-demo-79",
+    "timestamp": "2026-11-26T06:47:21.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 28ms",
+    "request_id": "req-a89ff014"
+  },
+  {
+    "id": "log-demo-312",
+    "timestamp": "2026-11-26T06:47:23.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-3a198022"
+  },
+  {
+    "id": "log-demo-323",
+    "timestamp": "2026-11-26T06:47:33.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Rate limit approaching for IP 10.0.12.44: 45/50 requests in 60s",
+    "request_id": "req-fe81d9c8"
+  },
+  {
+    "id": "log-demo-133",
+    "timestamp": "2026-11-26T06:47:34.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Disk space on database volume /var/lib/postgresql/data at 82% capacity",
+    "request_id": "req-aaba906d"
+  },
+  {
+    "id": "log-demo-214",
+    "timestamp": "2026-11-26T06:47:34.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "TLS 1.3 handshake completed with cipher TLS_AES_256_GCM_SHA384",
+    "request_id": "req-33d9cce7"
+  },
+  {
+    "id": "log-demo-98",
+    "timestamp": "2026-11-26T06:47:39.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Request payload size 782461 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-a9886f37"
+  },
+  {
+    "id": "log-demo-69",
+    "timestamp": "2026-11-26T06:47:40.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 17ms",
+    "request_id": "req-0cdf047b"
+  },
+  {
+    "id": "log-demo-238",
+    "timestamp": "2026-11-26T06:47:42.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-46140ccd"
+  },
+  {
+    "id": "log-demo-151",
+    "timestamp": "2026-11-26T06:47:44.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Payment method card_ending_5860 verified for customer_6383",
+    "request_id": "req-506f2644"
+  },
+  {
+    "id": "log-demo-252",
+    "timestamp": "2026-11-26T06:47:45.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 62ms",
+    "request_id": "req-4048019e"
+  },
+  {
+    "id": "log-demo-28",
+    "timestamp": "2026-11-26T06:47:46.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 7ms",
+    "request_id": "req-27aa747c"
+  },
+  {
+    "id": "log-demo-80",
+    "timestamp": "2026-11-26T06:47:48.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-e3ea6ee4"
+  },
+  {
+    "id": "log-demo-116",
+    "timestamp": "2026-11-26T06:47:49.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Constructing idempotency key for payment order_709331ED2A",
+    "request_id": "req-ed5264c5"
+  },
+  {
+    "id": "log-demo-397",
+    "timestamp": "2026-11-26T06:47:51.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-928f717d"
+  },
+  {
+    "id": "log-demo-114",
+    "timestamp": "2026-11-26T06:47:54.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Client keep-alive connection retained: timeout set to 65s",
+    "request_id": "req-8ed69030"
+  },
+  {
+    "id": "log-demo-364",
+    "timestamp": "2026-11-26T06:47:54.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-99b5e946"
+  },
+  {
+    "id": "log-demo-101",
+    "timestamp": "2026-11-26T06:47:56.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 695498 bytes)",
+    "request_id": "req-cc63b435"
+  },
+  {
+    "id": "log-demo-210",
+    "timestamp": "2026-11-26T06:47:56.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 771851 bytes)",
+    "request_id": "req-f2c523ea"
+  },
+  {
+    "id": "log-demo-338",
+    "timestamp": "2026-11-26T06:47:57.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Password hash verification completed in 123ms",
+    "request_id": "req-7114ece3"
+  },
+  {
+    "id": "log-demo-277",
+    "timestamp": "2026-11-26T06:47:58.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "TLS 1.3 handshake completed with cipher TLS_AES_256_GCM_SHA384",
+    "request_id": "req-61a48db2"
+  },
+  {
+    "id": "log-demo-310",
+    "timestamp": "2026-11-26T06:48:02.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "502 Bad Gateway: connect() to unix:/var/run/flask.sock failed (Connection refused)",
+    "request_id": "req-08967d57"
+  },
+  {
+    "id": "log-demo-3",
+    "timestamp": "2026-11-26T06:48:04.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 92ms",
+    "request_id": "req-05d27681"
+  },
+  {
+    "id": "log-demo-22",
+    "timestamp": "2026-11-26T06:48:07.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-c1600507"
+  },
+  {
+    "id": "log-demo-226",
+    "timestamp": "2026-11-26T06:48:08.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 5ms",
+    "request_id": "req-473ebf61"
+  },
+  {
+    "id": "log-demo-30",
+    "timestamp": "2026-11-26T06:48:12.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_4C317FD8E4",
+    "request_id": "req-e41df91e"
+  },
+  {
+    "id": "log-demo-109",
+    "timestamp": "2026-11-26T06:48:15.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_50B41B82FD",
+    "request_id": "req-b521f040"
+  },
+  {
+    "id": "log-demo-263",
+    "timestamp": "2026-11-26T06:48:15.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 956257 bytes)",
+    "request_id": "req-b1f70cf6"
+  },
+  {
+    "id": "log-demo-211",
+    "timestamp": "2026-11-26T06:48:16.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "User session established successfully for user_id=6313",
+    "request_id": "req-db54502c"
+  },
+  {
+    "id": "log-demo-137",
+    "timestamp": "2026-11-26T06:48:17.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "LDAP directory service timeout while authenticating user_6287",
+    "request_id": "req-1a0d0aa4"
+  },
+  {
+    "id": "log-demo-380",
+    "timestamp": "2026-11-26T06:48:19.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 1046780 bytes)",
+    "request_id": "req-48b5843a"
+  },
+  {
+    "id": "log-demo-195",
+    "timestamp": "2026-11-26T06:48:23.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Refreshing expired JWT refresh token token_ref_f86da8b0",
+    "request_id": "req-9fe1314a"
+  },
+  {
+    "id": "log-demo-359",
+    "timestamp": "2026-11-26T06:48:27.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-d7cdaa7a"
+  },
+  {
+    "id": "log-demo-172",
+    "timestamp": "2026-11-26T06:48:30.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-233dc380"
+  },
+  {
+    "id": "log-demo-344",
+    "timestamp": "2026-11-26T06:48:35.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "OAuth2 token validated for client_id=client_916",
+    "request_id": "req-9b68b5e4"
+  },
+  {
+    "id": "log-demo-12",
+    "timestamp": "2026-11-26T06:48:41.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Refund ref_4F4CE9410A successfully issued to original payment source",
+    "request_id": "req-9e6d884f"
+  },
+  {
+    "id": "log-demo-215",
+    "timestamp": "2026-11-26T06:48:43.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Storage volume /var/lib/postgresql/data reached 99.8% capacity: OOM panic imminent",
+    "request_id": "req-f3764843"
+  },
+  {
+    "id": "log-demo-345",
+    "timestamp": "2026-11-26T06:48:53.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Request payload size 736412 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-5057ba42"
+  },
+  {
+    "id": "log-demo-188",
+    "timestamp": "2026-11-26T06:48:57.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Currency conversion rate stale for EUR/USD, using cached fallback",
+    "request_id": "req-48482198"
+  },
+  {
+    "id": "log-demo-314",
+    "timestamp": "2026-11-26T06:48:58.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Payment transaction tx_AF4F9E8A93 completed successfully: amount=$88.53",
+    "request_id": "req-b2693907"
+  },
+  {
+    "id": "log-demo-377",
+    "timestamp": "2026-11-26T06:49:04.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-f38952bd"
+  },
+  {
+    "id": "log-demo-206",
+    "timestamp": "2026-11-26T06:49:07.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Request payload size 1031518 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-cc360886"
+  },
+  {
+    "id": "log-demo-54",
+    "timestamp": "2026-11-26T06:49:08.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-ddf2f549"
+  },
+  {
+    "id": "log-demo-149",
+    "timestamp": "2026-11-26T06:49:08.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-11b790ad"
+  },
+  {
+    "id": "log-demo-174",
+    "timestamp": "2026-11-26T06:49:09.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-ad4e0d33"
+  },
+  {
+    "id": "log-demo-207",
+    "timestamp": "2026-11-26T06:49:09.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-d2cdbb63"
+  },
+  {
+    "id": "log-demo-358",
+    "timestamp": "2026-11-26T06:49:09.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "OAuth2 token validated for client_id=client_677",
+    "request_id": "req-f558f46d"
+  },
+  {
+    "id": "log-demo-178",
+    "timestamp": "2026-11-26T06:49:13.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-e7cddb2e"
+  },
+  {
+    "id": "log-demo-396",
+    "timestamp": "2026-11-26T06:49:18.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Client closed connection prematurely while reading response body",
+    "request_id": "req-11737f71"
+  },
+  {
+    "id": "log-demo-228",
+    "timestamp": "2026-11-26T06:49:25.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 831176 bytes)",
+    "request_id": "req-8bf18a29"
+  },
+  {
+    "id": "log-demo-399",
+    "timestamp": "2026-11-26T06:49:26.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-02652407"
+  },
+  {
+    "id": "log-demo-370",
+    "timestamp": "2026-11-26T06:49:29.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "OAuth2 token validated for client_id=client_524",
+    "request_id": "req-9025118e"
+  },
+  {
+    "id": "log-demo-99",
+    "timestamp": "2026-11-26T06:49:31.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-13d59532"
+  },
+  {
+    "id": "log-demo-83",
+    "timestamp": "2026-11-26T06:49:32.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-0b330225"
+  },
+  {
+    "id": "log-demo-120",
+    "timestamp": "2026-11-26T06:49:35.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-038c1400"
+  },
+  {
+    "id": "log-demo-164",
+    "timestamp": "2026-11-26T06:49:35.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-c6cf0e49"
+  },
+  {
+    "id": "log-demo-393",
+    "timestamp": "2026-11-26T06:49:39.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-d7b770c2"
+  },
+  {
+    "id": "log-demo-11",
+    "timestamp": "2026-11-26T06:49:41.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Failed to open file /var/www/html/assets/app.chunk.js: Permission denied",
+    "request_id": "req-00e8e3e8"
+  },
+  {
+    "id": "log-demo-342",
+    "timestamp": "2026-11-26T06:49:45.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Secret key decryption master key integrity check failed",
+    "request_id": "req-38e1c793"
+  },
+  {
+    "id": "log-demo-389",
+    "timestamp": "2026-11-26T06:49:47.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "142.250.190.46",
+    "message": "502 Bad Gateway: connect() to unix:/var/run/flask.sock failed (Connection refused)",
+    "request_id": "req-aadab758"
+  },
+  {
+    "id": "log-demo-68",
+    "timestamp": "2026-11-26T06:49:52.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-97ffc499"
+  },
+  {
+    "id": "log-demo-143",
+    "timestamp": "2026-11-26T06:49:52.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "PCI-DSS compliance token masked successfully for card token",
+    "request_id": "req-2f7d390f"
+  },
+  {
+    "id": "log-demo-158",
+    "timestamp": "2026-11-26T06:49:56.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 658485 bytes)",
+    "request_id": "req-ad2263a1"
+  },
+  {
+    "id": "log-demo-152",
+    "timestamp": "2026-11-26T06:50:02.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Incoming request from 10.0.14.88 matched rate limit tier: Standard",
+    "request_id": "req-7fb3b86b"
+  },
+  {
+    "id": "log-demo-108",
+    "timestamp": "2026-11-26T06:50:05.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Request payload size 899333 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-1c5b3aed"
+  },
+  {
+    "id": "log-demo-44",
+    "timestamp": "2026-11-26T06:50:08.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Failed login attempt detected from IP 10.0.12.44 for user_id=4181",
+    "request_id": "req-b08182f5"
+  },
+  {
+    "id": "log-demo-40",
+    "timestamp": "2026-11-26T06:50:09.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Upstream connection failed: 504 Gateway Timeout on /api/v1/analytics",
+    "request_id": "req-9007a897"
+  },
+  {
+    "id": "log-demo-15",
+    "timestamp": "2026-11-26T06:50:20.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Incoming request from 142.250.190.46 matched rate limit tier: Standard",
+    "request_id": "req-d9bc8578"
+  },
+  {
+    "id": "log-demo-302",
+    "timestamp": "2026-11-26T06:50:20.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-584d3797"
+  },
+  {
+    "id": "log-demo-340",
+    "timestamp": "2026-11-26T06:50:27.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Request payload size 668024 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-af0f00ff"
+  },
+  {
+    "id": "log-demo-208",
+    "timestamp": "2026-11-26T06:50:32.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Disk space on database volume /var/lib/postgresql/data at 82% capacity",
+    "request_id": "req-52bd5e80"
+  },
+  {
+    "id": "log-demo-321",
+    "timestamp": "2026-11-26T06:50:33.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 68ms",
+    "request_id": "req-2d88b1c6"
+  },
+  {
+    "id": "log-demo-182",
+    "timestamp": "2026-11-26T06:50:35.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "User session established successfully for user_id=6749",
+    "request_id": "req-6a690bd2"
+  },
+  {
+    "id": "log-demo-372",
+    "timestamp": "2026-11-26T06:50:40.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Payment method card_ending_7238 verified for customer_1680",
+    "request_id": "req-bd77affc"
+  },
+  {
+    "id": "log-demo-117",
+    "timestamp": "2026-11-26T06:50:41.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Password hash verification completed in 39ms",
+    "request_id": "req-e13b05e9"
+  },
+  {
+    "id": "log-demo-184",
+    "timestamp": "2026-11-26T06:50:47.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Header X-Correlation-ID injected: req-edb2953f",
+    "request_id": "req-0f24ae5c"
+  },
+  {
+    "id": "log-demo-332",
+    "timestamp": "2026-11-26T06:50:51.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Card issuer declined payment tx_C5917C0C99: Insufficient funds",
+    "request_id": "req-89dd6751"
+  },
+  {
+    "id": "log-demo-357",
+    "timestamp": "2026-11-26T06:50:54.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Header X-Correlation-ID injected: req-fc9e2357",
+    "request_id": "req-3f8c7d67"
+  },
+  {
+    "id": "log-demo-375",
+    "timestamp": "2026-11-26T06:50:54.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Refreshing expired JWT refresh token token_ref_e51fe981",
+    "request_id": "req-2ea0b370"
+  },
+  {
+    "id": "log-demo-197",
+    "timestamp": "2026-11-26T06:50:55.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-06498b13"
+  },
+  {
+    "id": "log-demo-29",
+    "timestamp": "2026-11-26T06:51:04.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Constructing idempotency key for payment order_ADCF1F4A65",
+    "request_id": "req-1bab6761"
+  },
+  {
+    "id": "log-demo-39",
+    "timestamp": "2026-11-26T06:51:04.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "User session established successfully for user_id=4609",
+    "request_id": "req-9d8cf486"
+  },
+  {
+    "id": "log-demo-284",
+    "timestamp": "2026-11-26T06:51:04.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-3fa0bd52"
+  },
+  {
+    "id": "log-demo-290",
+    "timestamp": "2026-11-26T06:51:04.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Password hash verification completed in 30ms",
+    "request_id": "req-a3d594bb"
+  },
+  {
+    "id": "log-demo-181",
+    "timestamp": "2026-11-26T06:51:07.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Failed to open file /var/www/html/assets/app.chunk.js: Permission denied",
+    "request_id": "req-8f178bfc"
+  },
+  {
+    "id": "log-demo-235",
+    "timestamp": "2026-11-26T06:51:16.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Payment transaction tx_42E75EE116 completed successfully: amount=$203.65",
+    "request_id": "req-7ea3314d"
+  },
+  {
+    "id": "log-demo-306",
+    "timestamp": "2026-11-26T06:51:19.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-4224a73c"
+  },
+  {
+    "id": "log-demo-270",
+    "timestamp": "2026-11-26T06:51:21.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Refreshing expired JWT refresh token token_ref_e064b9d5",
+    "request_id": "req-5c703fa0"
+  },
+  {
+    "id": "log-demo-175",
+    "timestamp": "2026-11-26T06:51:22.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Authentication service failed to reach auth-cache store",
+    "request_id": "req-4c543520"
+  },
+  {
+    "id": "log-demo-256",
+    "timestamp": "2026-11-26T06:51:25.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-c3b1b221"
+  },
+  {
+    "id": "log-demo-242",
+    "timestamp": "2026-11-26T06:51:36.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Client 172.16.20.15 requested unknown route /wp-login.php (HTTP 404)",
+    "request_id": "req-012a4799"
+  },
+  {
+    "id": "log-demo-288",
+    "timestamp": "2026-11-26T06:51:41.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 17ms",
+    "request_id": "req-ca45e6cd"
+  },
+  {
+    "id": "log-demo-14",
+    "timestamp": "2026-11-26T06:51:42.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-ee1e1ff9"
+  },
+  {
+    "id": "log-demo-266",
+    "timestamp": "2026-11-26T06:51:46.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "User permissions cached in Redis key user:perm:8373",
+    "request_id": "req-40fbde4a"
+  },
+  {
+    "id": "log-demo-243",
+    "timestamp": "2026-11-26T06:51:54.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-09c46ac8"
+  },
+  {
+    "id": "log-demo-240",
+    "timestamp": "2026-11-26T06:51:55.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_F5583A5ACA",
+    "request_id": "req-f58887d0"
+  },
+  {
+    "id": "log-demo-185",
+    "timestamp": "2026-11-26T06:51:58.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Expired authentication token presented by client client_255",
+    "request_id": "req-ce1400b2"
+  },
+  {
+    "id": "log-demo-269",
+    "timestamp": "2026-11-26T06:51:58.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Payment audit ledger write failed: connection pool exhausted",
+    "request_id": "req-e9a117b5"
+  },
+  {
+    "id": "log-demo-333",
+    "timestamp": "2026-11-26T06:51:58.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Circuit breaker tripped for upstream service: Database Service (open state)",
+    "request_id": "req-0d09bbfb"
+  },
+  {
+    "id": "log-demo-48",
+    "timestamp": "2026-11-26T06:51:59.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-0e059fad"
+  },
+  {
+    "id": "log-demo-379",
+    "timestamp": "2026-11-26T06:52:10.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 101ms",
+    "request_id": "req-fe6eda4c"
+  },
+  {
+    "id": "log-demo-100",
+    "timestamp": "2026-11-26T06:52:13.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-029ead10"
+  },
+  {
+    "id": "log-demo-218",
+    "timestamp": "2026-11-26T06:52:18.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_3848360754",
+    "request_id": "req-51a4b604"
+  },
+  {
+    "id": "log-demo-361",
+    "timestamp": "2026-11-26T06:52:21.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "LDAP directory service timeout while authenticating user_5551",
+    "request_id": "req-c84c1fff"
+  },
+  {
+    "id": "log-demo-264",
+    "timestamp": "2026-11-26T06:52:23.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "TLS 1.3 handshake completed with cipher TLS_AES_256_GCM_SHA384",
+    "request_id": "req-94454bdd"
+  },
+  {
+    "id": "log-demo-124",
+    "timestamp": "2026-11-26T06:52:29.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-8d4474be"
+  },
+  {
+    "id": "log-demo-297",
+    "timestamp": "2026-11-26T06:52:31.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "404 Not Found: Request for /apple-touch-icon.png from IP 157.240.22.35",
+    "request_id": "req-6516a62e"
+  },
+  {
+    "id": "log-demo-171",
+    "timestamp": "2026-11-26T06:52:32.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Multi-factor authentication challenge completed for session_8e4ddc51",
+    "request_id": "req-7e810e36"
+  },
+  {
+    "id": "log-demo-189",
+    "timestamp": "2026-11-26T06:52:33.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Card issuer declined payment tx_D9E9A4BCAB: Insufficient funds",
+    "request_id": "req-1746bb33"
+  },
+  {
+    "id": "log-demo-339",
+    "timestamp": "2026-11-26T06:52:33.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Payment transaction tx_798F1ABF9C completed successfully: amount=$334.90",
+    "request_id": "req-ab11bb88"
+  },
+  {
+    "id": "log-demo-201",
+    "timestamp": "2026-11-26T06:52:37.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Calling bank partner settlement gateway api.bankpartner.com",
+    "request_id": "req-5ec625c1"
+  },
+  {
+    "id": "log-demo-7",
+    "timestamp": "2026-11-26T06:52:39.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-e4a6bcbe"
+  },
+  {
+    "id": "log-demo-121",
+    "timestamp": "2026-11-26T06:52:40.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Payment transaction tx_513B26D1BF completed successfully: amount=$479.78",
+    "request_id": "req-773aa33a"
+  },
+  {
+    "id": "log-demo-257",
+    "timestamp": "2026-11-26T06:52:44.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-a55dff05"
+  },
+  {
+    "id": "log-demo-299",
+    "timestamp": "2026-11-26T06:52:47.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Header X-Correlation-ID injected: req-4dcb5386",
+    "request_id": "req-36c6a314"
+  },
+  {
+    "id": "log-demo-355",
+    "timestamp": "2026-11-26T06:52:53.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Failed login attempt detected from IP 198.51.100.24 for user_id=8302",
+    "request_id": "req-776922fb"
+  },
+  {
+    "id": "log-demo-25",
+    "timestamp": "2026-11-26T06:52:55.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Multi-factor authentication challenge completed for session_71dbb062",
+    "request_id": "req-28006124"
+  },
+  {
+    "id": "log-demo-51",
+    "timestamp": "2026-11-26T06:52:56.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_EED795CC6E",
+    "request_id": "req-56e02023"
+  },
+  {
+    "id": "log-demo-376",
+    "timestamp": "2026-11-26T06:52:59.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Query SELECT * FROM orders executed in 74ms, returned 12 rows",
+    "request_id": "req-0c663c88"
+  },
+  {
+    "id": "log-demo-1",
+    "timestamp": "2026-11-26T06:53:04.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-2b943754"
+  },
+  {
+    "id": "log-demo-300",
+    "timestamp": "2026-11-26T06:53:09.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "User session established successfully for user_id=2723",
+    "request_id": "req-c9c54243"
+  },
+  {
+    "id": "log-demo-8",
+    "timestamp": "2026-11-26T06:53:10.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "502 Bad Gateway: connect() to unix:/var/run/flask.sock failed (Connection refused)",
+    "request_id": "req-7aadeb0c"
+  },
+  {
+    "id": "log-demo-205",
+    "timestamp": "2026-11-26T06:53:11.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-0cc904c4"
+  },
+  {
+    "id": "log-demo-222",
+    "timestamp": "2026-11-26T06:53:13.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Expired authentication token presented by client client_589",
+    "request_id": "req-c70f23f2"
+  },
+  {
+    "id": "log-demo-363",
+    "timestamp": "2026-11-26T06:53:14.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Payment double-spend detection triggered for transaction tx_43712DFE66",
+    "request_id": "req-65820e70"
+  },
+  {
+    "id": "log-demo-286",
+    "timestamp": "2026-11-26T06:53:19.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-f2522e8f"
+  },
+  {
+    "id": "log-demo-250",
+    "timestamp": "2026-11-26T06:53:21.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Multi-factor authentication challenge completed for session_320bc553",
+    "request_id": "req-89e84daf"
+  },
+  {
+    "id": "log-demo-96",
+    "timestamp": "2026-11-26T06:53:24.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-b2ac634b"
+  },
+  {
+    "id": "log-demo-261",
+    "timestamp": "2026-11-26T06:53:28.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Multi-factor authentication challenge completed for session_076fdc05",
+    "request_id": "req-f0a58389"
+  },
+  {
+    "id": "log-demo-155",
+    "timestamp": "2026-11-26T06:53:29.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 75ms",
+    "request_id": "req-536e9557"
+  },
+  {
+    "id": "log-demo-259",
+    "timestamp": "2026-11-26T06:53:29.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "LDAP directory service timeout while authenticating user_4082",
+    "request_id": "req-65f350b0"
+  },
+  {
+    "id": "log-demo-118",
+    "timestamp": "2026-11-26T06:53:31.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-e87e0475"
+  },
+  {
+    "id": "log-demo-110",
+    "timestamp": "2026-11-26T06:53:43.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-6b6a9608"
+  },
+  {
+    "id": "log-demo-144",
+    "timestamp": "2026-11-26T06:53:48.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Refreshing expired JWT refresh token token_ref_87187557",
+    "request_id": "req-a73439cd"
+  },
+  {
+    "id": "log-demo-293",
+    "timestamp": "2026-11-26T06:53:52.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Payment transaction tx_615EB6C917 completed successfully: amount=$245.53",
+    "request_id": "req-f4147a29"
+  },
+  {
+    "id": "log-demo-383",
+    "timestamp": "2026-11-26T06:53:54.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-87df64f5"
+  },
+  {
+    "id": "log-demo-200",
+    "timestamp": "2026-11-26T06:54:02.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-2cd6acf6"
+  },
+  {
+    "id": "log-demo-159",
+    "timestamp": "2026-11-26T06:54:03.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Multi-factor authentication challenge completed for session_974e5657",
+    "request_id": "req-133f43b5"
+  },
+  {
+    "id": "log-demo-369",
+    "timestamp": "2026-11-26T06:54:03.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-489c51d2"
+  },
+  {
+    "id": "log-demo-267",
+    "timestamp": "2026-11-26T06:54:04.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-764b61e2"
+  },
+  {
+    "id": "log-demo-187",
+    "timestamp": "2026-11-26T06:54:10.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "User session established successfully for user_id=2258",
+    "request_id": "req-410d1114"
+  },
+  {
+    "id": "log-demo-347",
+    "timestamp": "2026-11-26T06:54:11.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-fd26b8f0"
+  },
+  {
+    "id": "log-demo-47",
+    "timestamp": "2026-11-26T06:54:16.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Authentication service failed to reach auth-cache store",
+    "request_id": "req-6f23cf3f"
+  },
+  {
+    "id": "log-demo-395",
+    "timestamp": "2026-11-26T06:54:17.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "User session established successfully for user_id=6226",
+    "request_id": "req-324964e9"
+  },
+  {
+    "id": "log-demo-220",
+    "timestamp": "2026-11-26T06:54:23.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-b1ffa7ac"
+  },
+  {
+    "id": "log-demo-313",
+    "timestamp": "2026-11-26T06:54:23.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-b4f381db"
+  },
+  {
+    "id": "log-demo-239",
+    "timestamp": "2026-11-26T06:54:25.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 99ms",
+    "request_id": "req-6bdbcab3"
+  },
+  {
+    "id": "log-demo-213",
+    "timestamp": "2026-11-26T06:54:27.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Connection pool usage at 85% capacity (42/50 connections)",
+    "request_id": "req-2acf850a"
+  },
+  {
+    "id": "log-demo-183",
+    "timestamp": "2026-11-26T06:54:28.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-bff8344e"
+  },
+  {
+    "id": "log-demo-179",
+    "timestamp": "2026-11-26T06:54:37.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Failed to open file /var/www/html/assets/app.chunk.js: Permission denied",
+    "request_id": "req-efbb8b7c"
+  },
+  {
+    "id": "log-demo-113",
+    "timestamp": "2026-11-26T06:54:38.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "User permissions cached in Redis key user:perm:7851",
+    "request_id": "req-c32d7c8e"
+  },
+  {
+    "id": "log-demo-232",
+    "timestamp": "2026-11-26T06:54:38.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-7b1acd3b"
+  },
+  {
+    "id": "log-demo-35",
+    "timestamp": "2026-11-26T06:54:39.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Refreshing expired JWT refresh token token_ref_d4542e72",
+    "request_id": "req-5cb0728b"
+  },
+  {
+    "id": "log-demo-82",
+    "timestamp": "2026-11-26T06:54:42.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Payment method card_ending_1012 verified for customer_6831",
+    "request_id": "req-336d0f1e"
+  },
+  {
+    "id": "log-demo-92",
+    "timestamp": "2026-11-26T06:54:49.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Rate limit approaching for IP 172.16.20.15: 45/50 requests in 60s",
+    "request_id": "req-c182b4d1"
+  },
+  {
+    "id": "log-demo-crit-3",
+    "timestamp": "2026-11-26T06:54:49.360620+00:00",
+    "level": "CRITICAL",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "DDoS mitigation engaged: incoming request flood exceeding 50,000 req/sec on route /api/v1/checkout",
+    "request_id": "req-crit-gw-003"
+  },
+  {
+    "id": "log-demo-260",
+    "timestamp": "2026-11-26T06:54:51.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-ca5f436d"
+  },
+  {
+    "id": "log-demo-343",
+    "timestamp": "2026-11-26T06:54:55.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-46d1d36d"
+  },
+  {
+    "id": "log-demo-125",
+    "timestamp": "2026-11-26T06:55:00.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-e60f30ff"
+  },
+  {
+    "id": "log-demo-41",
+    "timestamp": "2026-11-26T06:55:01.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-9c543d55"
+  },
+  {
+    "id": "log-demo-166",
+    "timestamp": "2026-11-26T06:55:01.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-d52cf4dd"
+  },
+  {
+    "id": "log-demo-123",
+    "timestamp": "2026-11-26T06:55:02.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-4cec5ce8"
+  },
+  {
+    "id": "log-demo-362",
+    "timestamp": "2026-11-26T06:55:03.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-f5c2aa38"
+  },
+  {
+    "id": "log-demo-337",
+    "timestamp": "2026-11-26T06:55:04.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "User permissions cached in Redis key user:perm:9146",
+    "request_id": "req-a7f58af9"
+  },
+  {
+    "id": "log-demo-224",
+    "timestamp": "2026-11-26T06:55:08.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-0e6abb82"
+  },
+  {
+    "id": "log-demo-212",
+    "timestamp": "2026-11-26T06:55:18.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Client keep-alive connection retained: timeout set to 65s",
+    "request_id": "req-61f81dd4"
+  },
+  {
+    "id": "log-demo-386",
+    "timestamp": "2026-11-26T06:55:18.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-afcdbaf7"
+  },
+  {
+    "id": "log-demo-160",
+    "timestamp": "2026-11-26T06:55:20.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-04b45c4d"
+  },
+  {
+    "id": "log-demo-58",
+    "timestamp": "2026-11-26T06:55:23.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "User session established successfully for user_id=8419",
+    "request_id": "req-38104439"
+  },
+  {
+    "id": "log-demo-335",
+    "timestamp": "2026-11-26T06:55:28.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Constructing idempotency key for payment order_774CA7CE09",
+    "request_id": "req-54b071b1"
+  },
+  {
+    "id": "log-demo-384",
+    "timestamp": "2026-11-26T06:55:31.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-7bb0f777"
+  },
+  {
+    "id": "log-demo-245",
+    "timestamp": "2026-11-26T06:55:32.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 58ms",
+    "request_id": "req-c6f9604a"
+  },
+  {
+    "id": "log-demo-374",
+    "timestamp": "2026-11-26T06:55:36.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Automated VACUUM completed on table orders_partition_2026",
+    "request_id": "req-63e71052"
+  },
+  {
+    "id": "log-demo-33",
+    "timestamp": "2026-11-26T06:55:37.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Brute-force attack threshold exceeded from IP 198.51.100.24: 25 failed logins in 10s",
+    "request_id": "req-0c7e953c"
+  },
+  {
+    "id": "log-demo-106",
+    "timestamp": "2026-11-26T06:55:46.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Client 49.207.180.12 requested unknown route /wp-login.php (HTTP 404)",
+    "request_id": "req-16900b3e"
+  },
+  {
+    "id": "log-demo-350",
+    "timestamp": "2026-11-26T06:55:46.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 461593 bytes)",
+    "request_id": "req-8a6f7bfa"
+  },
+  {
+    "id": "log-demo-132",
+    "timestamp": "2026-11-26T06:55:49.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Zero web server workers available: Nginx emergency stop initiated",
+    "request_id": "req-98e211c4"
+  },
+  {
+    "id": "log-demo-126",
+    "timestamp": "2026-11-26T06:55:51.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Brute-force attack threshold exceeded from IP 10.0.14.88: 25 failed logins in 10s",
+    "request_id": "req-780581b4"
+  },
+  {
+    "id": "log-demo-94",
+    "timestamp": "2026-11-26T06:55:56.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Unique constraint violation: duplicate key value violates unique index users_email_key",
+    "request_id": "req-ab3263fa"
+  },
+  {
+    "id": "log-demo-53",
+    "timestamp": "2026-11-26T06:56:01.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-382066bb"
+  },
+  {
+    "id": "log-demo-265",
+    "timestamp": "2026-11-26T06:56:01.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Payment transaction tx_7A704D88D2 completed successfully: amount=$468.69",
+    "request_id": "req-a7fc257e"
+  },
+  {
+    "id": "log-demo-203",
+    "timestamp": "2026-11-26T06:56:06.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 958654 bytes)",
+    "request_id": "req-797106ad"
+  },
+  {
+    "id": "log-demo-385",
+    "timestamp": "2026-11-26T06:56:06.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Client keep-alive connection retained: timeout set to 65s",
+    "request_id": "req-8cdddf48"
+  },
+  {
+    "id": "log-demo-141",
+    "timestamp": "2026-11-26T06:56:07.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-bf765c9c"
+  },
+  {
+    "id": "log-demo-50",
+    "timestamp": "2026-11-26T06:56:09.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-a59bb5c8"
+  },
+  {
+    "id": "log-demo-322",
+    "timestamp": "2026-11-26T06:56:12.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Refreshing expired JWT refresh token token_ref_c331922e",
+    "request_id": "req-dacc53b6"
+  },
+  {
+    "id": "log-demo-227",
+    "timestamp": "2026-11-26T06:56:13.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Worker process 4120 terminated with signal 11 (Segmentation fault)",
+    "request_id": "req-9d0b02a6"
+  },
+  {
+    "id": "log-demo-303",
+    "timestamp": "2026-11-26T06:56:19.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-a54a40c4"
+  },
+  {
+    "id": "log-demo-37",
+    "timestamp": "2026-11-26T06:56:21.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Buffer cache hit ratio: 99.4% over past 10 minutes",
+    "request_id": "req-03d69d4d"
+  },
+  {
+    "id": "log-demo-349",
+    "timestamp": "2026-11-26T06:56:25.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Refreshing expired JWT refresh token token_ref_19449a0d",
+    "request_id": "req-942727ca"
+  },
+  {
+    "id": "log-demo-55",
+    "timestamp": "2026-11-26T06:56:26.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-25589280"
+  },
+  {
+    "id": "log-demo-216",
+    "timestamp": "2026-11-26T06:56:35.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-f2a035d5"
+  },
+  {
+    "id": "log-demo-119",
+    "timestamp": "2026-11-26T06:56:36.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Payment method card_ending_3197 verified for customer_4300",
+    "request_id": "req-f8188501"
+  },
+  {
+    "id": "log-demo-36",
+    "timestamp": "2026-11-26T06:56:49.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "User permissions cached in Redis key user:perm:9197",
+    "request_id": "req-93c6382b"
+  },
+  {
+    "id": "log-demo-280",
+    "timestamp": "2026-11-26T06:56:57.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "PostgreSQL primary database failed to accept writes: Read-Only filesystem mounted",
+    "request_id": "req-5d6e39ac"
+  },
+  {
+    "id": "log-demo-247",
+    "timestamp": "2026-11-26T06:56:59.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Client keep-alive connection retained: timeout set to 65s",
+    "request_id": "req-4b536c7b"
+  },
+  {
+    "id": "log-demo-168",
+    "timestamp": "2026-11-26T06:57:00.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-0efe799b"
+  },
+  {
+    "id": "log-demo-204",
+    "timestamp": "2026-11-26T06:57:03.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Circuit breaker tripped for upstream service: Database Service (open state)",
+    "request_id": "req-92c28a4a"
+  },
+  {
+    "id": "log-demo-305",
+    "timestamp": "2026-11-26T06:57:03.360620+00:00",
+    "level": "DEBUG",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Calling bank partner settlement gateway api.bankpartner.com",
+    "request_id": "req-74ab17c6"
+  },
+  {
+    "id": "log-demo-328",
+    "timestamp": "2026-11-26T06:57:06.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-7663e3d1"
+  },
+  {
+    "id": "log-demo-95",
+    "timestamp": "2026-11-26T06:57:09.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 31ms",
+    "request_id": "req-9c481ad0"
+  },
+  {
+    "id": "log-demo-341",
+    "timestamp": "2026-11-26T06:57:10.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_F4E443BE5B",
+    "request_id": "req-da38cfdb"
+  },
+  {
+    "id": "log-demo-308",
+    "timestamp": "2026-11-26T06:57:11.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Incoming request from 192.168.1.155 matched rate limit tier: Standard",
+    "request_id": "req-a64efb32"
+  },
+  {
+    "id": "log-demo-78",
+    "timestamp": "2026-11-26T06:57:12.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Gzip compression saved 68% bandwidth on HTML payload",
+    "request_id": "req-3060f8d6"
+  },
+  {
+    "id": "log-demo-72",
+    "timestamp": "2026-11-26T06:57:14.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-66bc1bb9"
+  },
+  {
+    "id": "log-demo-236",
+    "timestamp": "2026-11-26T06:57:14.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-5d71637f"
+  },
+  {
+    "id": "log-demo-352",
+    "timestamp": "2026-11-26T06:57:15.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-d26be330"
+  },
+  {
+    "id": "log-demo-234",
+    "timestamp": "2026-11-26T06:57:26.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-9cc01c92"
+  },
+  {
+    "id": "log-demo-296",
+    "timestamp": "2026-11-26T06:57:26.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Payment transaction tx_4BBEF92C89 completed successfully: amount=$432.63",
+    "request_id": "req-3161a48e"
+  },
+  {
+    "id": "log-demo-223",
+    "timestamp": "2026-11-26T06:57:27.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-364f6810"
+  },
+  {
+    "id": "log-demo-crit-2",
+    "timestamp": "2026-11-26T06:57:29.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "SYN flood attack detected on port 443 from botnet subnet 185.220.101.0/24: Rate 75,000 req/s",
+    "request_id": "req-crit-web-002"
+  },
+  {
+    "id": "log-demo-390",
+    "timestamp": "2026-11-26T06:57:30.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Circuit breaker tripped for upstream service: Database Service (open state)",
+    "request_id": "req-581a297b"
+  },
+  {
+    "id": "log-demo-169",
+    "timestamp": "2026-11-26T06:57:34.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 115ms",
+    "request_id": "req-fda5a190"
+  },
+  {
+    "id": "log-demo-276",
+    "timestamp": "2026-11-26T06:57:34.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Client keep-alive connection retained: timeout set to 65s",
+    "request_id": "req-674f2e78"
+  },
+  {
+    "id": "log-demo-26",
+    "timestamp": "2026-11-26T06:57:40.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Worker process 4120 resumed normal keep-alive cycle",
+    "request_id": "req-8b45e95c"
+  },
+  {
+    "id": "log-demo-330",
+    "timestamp": "2026-11-26T06:57:50.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Nginx access: \"GET /dashboard HTTP/1.1\" 200 4812 \"Mozilla/5.0\"",
+    "request_id": "req-29fe50a5"
+  },
+  {
+    "id": "log-demo-317",
+    "timestamp": "2026-11-26T06:57:54.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Payment transaction tx_B98E61B995 completed successfully: amount=$263.35",
+    "request_id": "req-032495fa"
+  },
+  {
+    "id": "log-demo-219",
+    "timestamp": "2026-11-26T06:57:55.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "10.0.14.88",
+    "message": "SSL private key file /etc/ssl/certs/server.key unreadable or tampered",
+    "request_id": "req-719af043"
+  },
+  {
+    "id": "log-demo-354",
+    "timestamp": "2026-11-26T06:57:55.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Slow query detected: query on customer_activity took 317ms (>2000ms)",
+    "request_id": "req-0c996076"
+  },
+  {
+    "id": "log-demo-289",
+    "timestamp": "2026-11-26T06:57:56.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Payment method card_ending_4783 verified for customer_6725",
+    "request_id": "req-df2096ce"
+  },
+  {
+    "id": "log-demo-392",
+    "timestamp": "2026-11-26T06:58:03.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 125ms",
+    "request_id": "req-4e6288b4"
+  },
+  {
+    "id": "log-demo-112",
+    "timestamp": "2026-11-26T06:58:07.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Expired authentication token presented by client client_443",
+    "request_id": "req-7ec2f17d"
+  },
+  {
+    "id": "log-demo-24",
+    "timestamp": "2026-11-26T06:58:12.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Multi-factor authentication challenge completed for session_b431415f",
+    "request_id": "req-6239f8f4"
+  },
+  {
+    "id": "log-demo-161",
+    "timestamp": "2026-11-26T06:58:14.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Multi-factor authentication challenge completed for session_482daef4",
+    "request_id": "req-21f186db"
+  },
+  {
+    "id": "log-demo-23",
+    "timestamp": "2026-11-26T06:58:15.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Header X-Correlation-ID injected: req-e0614739",
+    "request_id": "req-6dfc7cfd"
+  },
+  {
+    "id": "log-demo-70",
+    "timestamp": "2026-11-26T06:58:15.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Client closed connection prematurely while reading response body",
+    "request_id": "req-96491b0c"
+  },
+  {
+    "id": "log-demo-291",
+    "timestamp": "2026-11-26T06:58:17.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "User permissions cached in Redis key user:perm:5598",
+    "request_id": "req-2213880a"
+  },
+  {
+    "id": "log-demo-272",
+    "timestamp": "2026-11-26T06:58:18.360620+00:00",
+    "level": "ERROR",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "198.51.100.24",
+    "message": "502 Bad Gateway: connect() to unix:/var/run/flask.sock failed (Connection refused)",
+    "request_id": "req-ce917c49"
+  },
+  {
+    "id": "log-demo-316",
+    "timestamp": "2026-11-26T06:58:23.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Upstream connection failed: 504 Gateway Timeout on /api/v1/analytics",
+    "request_id": "req-b54c7ea0"
+  },
+  {
+    "id": "log-demo-274",
+    "timestamp": "2026-11-26T06:58:26.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Payment method card_ending_5913 verified for customer_3759",
+    "request_id": "req-19226558"
+  },
+  {
+    "id": "log-demo-268",
+    "timestamp": "2026-11-26T06:58:27.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Failed to decrypt user credentials: RSA key invalid or corrupted",
+    "request_id": "req-60becead"
+  },
+  {
+    "id": "log-demo-18",
+    "timestamp": "2026-11-26T06:58:30.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Replication lag on read-replica db-rep-01: 4ms",
+    "request_id": "req-28bc52ca"
+  },
+  {
+    "id": "log-demo-139",
+    "timestamp": "2026-11-26T06:58:35.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 801153 bytes)",
+    "request_id": "req-77708ee4"
+  },
+  {
+    "id": "log-demo-9",
+    "timestamp": "2026-11-26T06:58:43.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "User permissions cached in Redis key user:perm:7447",
+    "request_id": "req-69f79461"
+  },
+  {
+    "id": "log-demo-186",
+    "timestamp": "2026-11-26T06:58:47.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 1002242 bytes)",
+    "request_id": "req-c9b11049"
+  },
+  {
+    "id": "log-demo-196",
+    "timestamp": "2026-11-26T06:58:49.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Client 49.207.180.12 requested unknown route /wp-login.php (HTTP 404)",
+    "request_id": "req-02639e85"
+  },
+  {
+    "id": "log-demo-283",
+    "timestamp": "2026-11-26T06:58:52.360620+00:00",
+    "level": "DEBUG",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-02.dmz.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Proxy buffer allocated 64k for upstream response headers",
+    "request_id": "req-b06b400d"
+  },
+  {
+    "id": "log-demo-251",
+    "timestamp": "2026-11-26T06:58:54.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Write-Ahead Log (WAL) segment 000000010000001B archived",
+    "request_id": "req-e4f871b6"
+  },
+  {
+    "id": "log-demo-230",
+    "timestamp": "2026-11-26T06:58:57.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-1b14c7d5"
+  },
+  {
+    "id": "log-demo-331",
+    "timestamp": "2026-11-26T06:58:59.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Bank settlement API returned HTTP 502 Bad Gateway for payment tx_812A7A4548",
+    "request_id": "req-d7b506fb"
+  },
+  {
+    "id": "log-demo-356",
+    "timestamp": "2026-11-26T06:59:07.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 148466 bytes)",
+    "request_id": "req-21f13122"
+  },
+  {
+    "id": "log-demo-42",
+    "timestamp": "2026-11-26T06:59:08.360620+00:00",
+    "level": "ERROR",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "TLS certificate validation failed for partner endpoint webhook.partner.com",
+    "request_id": "req-2c678912"
+  },
+  {
+    "id": "log-demo-231",
+    "timestamp": "2026-11-26T06:59:08.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Refund ref_467736471F successfully issued to original payment source",
+    "request_id": "req-61fdd467"
+  },
+  {
+    "id": "log-demo-66",
+    "timestamp": "2026-11-26T06:59:15.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-edcbe0e7"
+  },
+  {
+    "id": "log-demo-145",
+    "timestamp": "2026-11-26T06:59:16.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "OAuth2 token validated for client_id=client_882",
+    "request_id": "req-0fa43172"
+  },
+  {
+    "id": "log-demo-5",
+    "timestamp": "2026-11-26T06:59:24.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Card issuer declined payment tx_3C0D7B3036: Insufficient funds",
+    "request_id": "req-a87cdce4"
+  },
+  {
+    "id": "log-demo-73",
+    "timestamp": "2026-11-26T06:59:27.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "LDAP directory service timeout while authenticating user_2251",
+    "request_id": "req-88c19c71"
+  },
+  {
+    "id": "log-demo-crit-1",
+    "timestamp": "2026-11-26T06:59:29.360620+00:00",
+    "level": "CRITICAL",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Storage volume /var/lib/postgresql/data reached 99.8% capacity: OOM panic imminent",
+    "request_id": "req-crit-db-001"
+  },
+  {
+    "id": "log-demo-102",
+    "timestamp": "2026-11-26T06:59:32.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Refund ref_24D2149DB4 successfully issued to original payment source",
+    "request_id": "req-2302d43a"
+  },
+  {
+    "id": "log-demo-255",
+    "timestamp": "2026-11-26T06:59:33.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-01.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Parsing bearer token from Authorization header",
+    "request_id": "req-6975425d"
+  },
+  {
+    "id": "log-demo-287",
+    "timestamp": "2026-11-26T06:59:43.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Payment transaction tx_E3FF4727FB completed successfully: amount=$90.65",
+    "request_id": "req-4e94971f"
+  },
+  {
+    "id": "log-demo-307",
+    "timestamp": "2026-11-26T06:59:44.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "HTTP GET /api/v1/products returned 200 OK (size: 923341 bytes)",
+    "request_id": "req-3c15d95c"
+  },
+  {
+    "id": "log-demo-77",
+    "timestamp": "2026-11-26T06:59:45.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Currency conversion rate stale for EUR/USD, using cached fallback",
+    "request_id": "req-3c23fd14"
+  },
+  {
+    "id": "log-demo-34",
+    "timestamp": "2026-11-26T06:59:48.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Failed login attempt detected from IP 203.0.113.195 for user_id=8448",
+    "request_id": "req-b946d288"
+  },
+  {
+    "id": "log-demo-115",
+    "timestamp": "2026-11-26T06:59:56.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "142.250.190.46",
+    "message": "Refund ref_E653BC85D3 successfully issued to original payment source",
+    "request_id": "req-4a6ab709"
+  },
+  {
+    "id": "log-demo-373",
+    "timestamp": "2026-11-26T06:59:57.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "203.0.113.195",
+    "message": "User permissions cached in Redis key user:perm:4942",
+    "request_id": "req-56c7a02b"
+  },
+  {
+    "id": "log-demo-84",
+    "timestamp": "2026-11-26T07:00:00.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "User permissions cached in Redis key user:perm:8716",
+    "request_id": "req-41d6b8c6"
+  },
+  {
+    "id": "log-demo-150",
+    "timestamp": "2026-11-26T07:00:00.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Password hash verification completed in 42ms",
+    "request_id": "req-f9de4d4b"
+  },
+  {
+    "id": "log-demo-52",
+    "timestamp": "2026-11-26T07:00:01.360620+00:00",
+    "level": "ERROR",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Authentication service failed to reach auth-cache store",
+    "request_id": "req-72ab131c"
+  },
+  {
+    "id": "log-demo-311",
+    "timestamp": "2026-11-26T07:00:02.360620+00:00",
+    "level": "WARNING",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Currency conversion rate stale for EUR/USD, using cached fallback",
+    "request_id": "req-299588a2"
+  },
+  {
+    "id": "log-demo-360",
+    "timestamp": "2026-11-26T07:00:03.360620+00:00",
+    "level": "DEBUG",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Index scan on idx_orders_customer_id used index condition",
+    "request_id": "req-76263c10"
+  },
+  {
+    "id": "log-demo-49",
+    "timestamp": "2026-11-26T07:00:06.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Static asset /static/bundle.min.js served from HTTP cache (304 Not Modified)",
+    "request_id": "req-317c6c5f"
+  },
+  {
+    "id": "log-demo-153",
+    "timestamp": "2026-11-26T07:00:08.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Header X-Correlation-ID injected: req-6e04387b",
+    "request_id": "req-5b755e64"
+  },
+  {
+    "id": "log-demo-31",
+    "timestamp": "2026-11-26T07:00:09.360620+00:00",
+    "level": "INFO",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Database connection pool active: 18/50 connections in use",
+    "request_id": "req-c83f92b1"
+  },
+  {
+    "id": "log-demo-170",
+    "timestamp": "2026-11-26T07:00:10.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 57ms",
+    "request_id": "req-1e74b9f3"
+  },
+  {
+    "id": "log-demo-258",
+    "timestamp": "2026-11-26T07:00:10.360620+00:00",
+    "level": "WARNING",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "203.0.113.195",
+    "message": "Nginx worker process connection limit warning: 900/1024 connections active",
+    "request_id": "req-c05a4705"
+  },
+  {
+    "id": "log-demo-400",
+    "timestamp": "2026-11-26T07:00:15.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-78cad023"
+  },
+  {
+    "id": "log-demo-59",
+    "timestamp": "2026-11-26T07:00:16.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Header X-Correlation-ID injected: req-48a8e1e7",
+    "request_id": "req-35b06789"
+  },
+  {
+    "id": "log-demo-326",
+    "timestamp": "2026-11-26T07:00:26.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Password hash verification completed in 63ms",
+    "request_id": "req-d0932f9d"
+  },
+  {
+    "id": "log-demo-194",
+    "timestamp": "2026-11-26T07:00:28.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "HTTP GET /api/v1/orders returned 200 OK in 88ms",
+    "request_id": "req-85e004f6"
+  },
+  {
+    "id": "log-demo-273",
+    "timestamp": "2026-11-26T07:00:32.360620+00:00",
+    "level": "DEBUG",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Password hash verification completed in 114ms",
+    "request_id": "req-4fa59ee3"
+  },
+  {
+    "id": "log-demo-128",
+    "timestamp": "2026-11-26T07:00:40.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Request payload size 834885 bytes exceeds optimal 1MB compression guideline",
+    "request_id": "req-b3e1136d"
+  },
+  {
+    "id": "log-demo-111",
+    "timestamp": "2026-11-26T07:00:41.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "redis-cache-01.db.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Disk space on database volume /var/lib/postgresql/data at 82% capacity",
+    "request_id": "req-d012f17f"
+  },
+  {
+    "id": "log-demo-148",
+    "timestamp": "2026-11-26T07:00:42.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_D17B932296",
+    "request_id": "req-2aa0b23f"
+  },
+  {
+    "id": "log-demo-146",
+    "timestamp": "2026-11-26T07:00:45.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "Stripe webhook charge.succeeded processed for invoice_inv_24004DB07F",
+    "request_id": "req-d4105cbd"
+  },
+  {
+    "id": "log-demo-storm-2",
+    "timestamp": "2026-11-26T07:00:46.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1002",
+    "request_id": "req-storm-pay-2"
+  },
+  {
+    "id": "log-demo-storm-6",
+    "timestamp": "2026-11-26T07:00:47.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1006",
+    "request_id": "req-storm-pay-6"
+  },
+  {
+    "id": "log-demo-21",
+    "timestamp": "2026-11-26T07:00:50.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Upstream service latency spike: Payment Service took 300ms (>1000ms threshold)",
+    "request_id": "req-8586bcae"
+  },
+  {
+    "id": "log-demo-387",
+    "timestamp": "2026-11-26T07:00:50.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Payment transaction tx_6A14D33262 completed successfully: amount=$16.04",
+    "request_id": "req-7d8f840a"
+  },
+  {
+    "id": "log-demo-storm-5",
+    "timestamp": "2026-11-26T07:00:57.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1005",
+    "request_id": "req-storm-pay-5"
+  },
+  {
+    "id": "log-demo-storm-3",
+    "timestamp": "2026-11-26T07:01:02.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1003",
+    "request_id": "req-storm-pay-3"
+  },
+  {
+    "id": "log-demo-336",
+    "timestamp": "2026-11-26T07:01:03.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "Header X-Correlation-ID injected: req-c9671c53",
+    "request_id": "req-3b384a82"
+  },
+  {
+    "id": "log-demo-324",
+    "timestamp": "2026-11-26T07:01:05.360620+00:00",
+    "level": "WARNING",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "49.207.180.12",
+    "message": "Client 10.0.12.44 requested unknown route /wp-login.php (HTTP 404)",
+    "request_id": "req-653bbeef"
+  },
+  {
+    "id": "log-demo-61",
+    "timestamp": "2026-11-26T07:01:07.360620+00:00",
+    "level": "WARNING",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Connection pool usage at 85% capacity (42/50 connections)",
+    "request_id": "req-9aa666e6"
+  },
+  {
+    "id": "log-demo-192",
+    "timestamp": "2026-11-26T07:01:09.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.14.88",
+    "message": "Refund ref_D2FE279DB4 successfully issued to original payment source",
+    "request_id": "req-108a8d5d"
+  },
+  {
+    "id": "log-demo-301",
+    "timestamp": "2026-11-26T07:01:14.360620+00:00",
+    "level": "WARNING",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Expired authentication token presented by client client_643",
+    "request_id": "req-87a4bb22"
+  },
+  {
+    "id": "log-demo-177",
+    "timestamp": "2026-11-26T07:01:15.360620+00:00",
+    "level": "DEBUG",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-02.prod.internal",
+    "ip_address": "172.16.20.15",
+    "message": "Upstream health check succeeded for target group web-cluster",
+    "request_id": "req-81d4db0b"
+  },
+  {
+    "id": "log-demo-60",
+    "timestamp": "2026-11-26T07:01:17.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.155",
+    "message": "User permissions cached in Redis key user:perm:6597",
+    "request_id": "req-e751a67a"
+  },
+  {
+    "id": "log-demo-storm-7",
+    "timestamp": "2026-11-26T07:01:17.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1007",
+    "request_id": "req-storm-pay-7"
+  },
+  {
+    "id": "log-demo-74",
+    "timestamp": "2026-11-26T07:01:18.360620+00:00",
+    "level": "INFO",
+    "service": "Payment Service",
+    "hostname": "payment-gw-02.prod.internal",
+    "ip_address": "172.16.20.10",
+    "message": "Refund ref_D8D91C80B1 successfully issued to original payment source",
+    "request_id": "req-fba0eb8b"
+  },
+  {
+    "id": "log-demo-storm-1",
+    "timestamp": "2026-11-26T07:01:18.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1001",
+    "request_id": "req-storm-pay-1"
+  },
+  {
+    "id": "log-demo-storm-4",
+    "timestamp": "2026-11-26T07:01:18.360620+00:00",
+    "level": "ERROR",
+    "service": "Payment Service",
+    "hostname": "payment-gw-01.prod.internal",
+    "ip_address": "10.0.12.44",
+    "message": "Payment gateway API timeout after 5000ms: settlement transaction failure batch #1004",
+    "request_id": "req-storm-pay-4"
+  },
+  {
+    "id": "log-demo-325",
+    "timestamp": "2026-11-26T07:01:20.360620+00:00",
+    "level": "INFO",
+    "service": "Web Server",
+    "hostname": "web-nginx-front-01.dmz.internal",
+    "ip_address": "157.240.22.35",
+    "message": "Nginx SSL configuration reloaded successfully with zero downtime",
+    "request_id": "req-a6dadfba"
+  },
+  {
+    "id": "log-demo-329",
+    "timestamp": "2026-11-26T07:01:22.360620+00:00",
+    "level": "ERROR",
+    "service": "Database Service",
+    "hostname": "postgres-primary-01.db.internal",
+    "ip_address": "192.168.1.104",
+    "message": "Transaction rollback: deadlock detected with process id 28419",
+    "request_id": "req-df60aa41"
+  },
+  {
+    "id": "log-demo-131",
+    "timestamp": "2026-11-26T07:01:23.360620+00:00",
+    "level": "INFO",
+    "service": "API Gateway",
+    "hostname": "api-edge-proxy-01.prod.internal",
+    "ip_address": "198.51.100.24",
+    "message": "HTTP POST /api/v1/checkout routed to Payment Service in 32ms",
+    "request_id": "req-d97f4fd2"
+  },
+  {
+    "id": "log-demo-368",
+    "timestamp": "2026-11-26T07:01:24.360620+00:00",
+    "level": "INFO",
+    "service": "Authentication Service",
+    "hostname": "auth-node-02.prod.internal",
+    "ip_address": "192.168.1.104",
+    "message": "OAuth2 token validated for client_id=client_587",
+    "request_id": "req-f510a1c0"
+  }
+]
